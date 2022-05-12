@@ -1,12 +1,5 @@
 # UCB_NFT_Project
 
-## Team Members
-1. Pablo Azcona 
-2. Xiaochen Zhang
-3. Stella Chen
-4. Eason Fan
-5. Ben Liu
-
 ## Background
 The most expensive NFT ever was sold on December 2, 2021, for a total cost of 
 $91.8M. NFT is a fast-growing market and we propose to explore market trends 
@@ -33,3 +26,10 @@ SQL/Python/Pandas/Matplotlib/NumPy/SciPy
 
 ## Data sets to use
 TBD
+
+## Team Members
+1. Pablo Azcona 
+2. Xiaochen Zhang
+3. Stella Chen
+4. Eason Fan
+5. Ben Liu
