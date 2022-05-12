@@ -1,5 +1,11 @@
 # UCB_NFT_Project
 
+## Team Members
+Pablo Azcona 
+Xiaochen Zhang
+Stella Chen
+Eason Fan
+Ben Liu
 
 ## Background
 The most expensive NFT ever was sold on December 2, 2021, for a total cost of 
@@ -14,9 +20,21 @@ blockchain ecosystem.
 
 ## Questions to answer
 
-● What types of NFTs are popular in the market or are becoming increasingly
+1. What types of NFTs are popular in the market or are becoming increasingly
 popular?
-● Are there correlations between the different types of NFT buyers and 
+2. Are there correlations between the different types of NFT buyers and 
 sellers, and its impact on NFT prices?
-● How is the value of NFT’s measured and predicted using exploratory data 
+3. How is the value of NFT’s measured and predicted using exploratory data 
 analysis of market data and social media interactions
+
+## Tools/Modules to use
+●SQL
+●Python
+●Pandas
+●Matplotlib
+●NumPy
+●SciPy
+
+## Data sets to use
+----
+----
