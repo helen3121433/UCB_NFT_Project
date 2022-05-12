@@ -32,5 +32,4 @@ analysis of market data and social media interactions
 SQL/Python/Pandas/Matplotlib/NumPy/SciPy
 
 ## Data sets to use
-----
-----
+TBD
