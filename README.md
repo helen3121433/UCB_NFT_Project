@@ -1,11 +1,11 @@
 # UCB_NFT_Project
 
 ## Team Members
-Pablo Azcona 
-Xiaochen Zhang
-Stella Chen
-Eason Fan
-Ben Liu
+1. Pablo Azcona 
+2. Xiaochen Zhang
+3. Stella Chen
+4. Eason Fan
+5. Ben Liu
 
 ## Background
 The most expensive NFT ever was sold on December 2, 2021, for a total cost of 
@@ -28,12 +28,12 @@ sellers, and its impact on NFT prices?
 analysis of market data and social media interactions
 
 ## Tools/Modules to use
-●SQL
-●Python
-●Pandas
-●Matplotlib
-●NumPy
-●SciPy
+1.SQL
+2.Python
+3.Pandas
+4.Matplotlib
+5.NumPy
+6.SciPy
 
 ## Data sets to use
 ----
