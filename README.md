@@ -29,12 +29,7 @@ analysis of market data and social media interactions
 
 ## Tools/Modules to use
 
-1.SQL
-2.Python
-3.Pandas
-4.Matplotlib
-5.NumPy
-6.SciPy
+SQL/Python/Pandas/Matplotlib/NumPy/SciPy
 
 ## Data sets to use
 ----
