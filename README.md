@@ -15,10 +15,8 @@ blockchain ecosystem.
 
 1. What types of NFTs are popular in the market or are becoming increasingly
 popular?
-2. Are there correlations between the different types of NFT buyers and 
-sellers, and its impact on NFT prices?
-3. How is the value of NFT’s measured and predicted using exploratory data 
-analysis of market data and social media interactions
+2. How is the value of NFT’s measured and predicted using exploratory data 
+analysis of market data?
 
 ## Tools/Modules to use
 
