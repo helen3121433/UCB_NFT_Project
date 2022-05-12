@@ -25,7 +25,8 @@ analysis of market data and social media interactions
 SQL/Python/Pandas/Matplotlib/NumPy/SciPy
 
 ## Data sets to use
-TBD
+https://www.kaggle.com/datasets/eyenpi/solana-nft-collections
+
 
 ## Team Members
 1. Pablo Azcona 
