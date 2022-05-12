@@ -28,6 +28,7 @@ sellers, and its impact on NFT prices?
 analysis of market data and social media interactions
 
 ## Tools/Modules to use
+
 1.SQL
 2.Python
 3.Pandas
