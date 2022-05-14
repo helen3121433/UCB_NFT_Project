@@ -1,5 +1,11 @@
 # UCB_NFT_Project
 
+## Team Members
+1. Pablo Azcona 
+2. Xiaochen Zhang
+3. Stella Chen
+4. Eason Fan
+5. Ben Liu
 
 ## Background
 NFT(non-fungible token)
@@ -44,10 +50,3 @@ Datasets included:
 4. Merge/Join collection basic information and NFT sold by each collections.
 5. Sort by/group by collection name.
 6. Collect # of NFT were sold for each collections
-
-## Team Members
-1. Pablo Azcona 
-2. Xiaochen Zhang
-3. Stella Chen
-4. Eason Fan
-5. Ben Liu
