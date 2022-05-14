@@ -15,15 +15,19 @@ the infrastructure of this technology and assess & predict various aspects of th
 blockchain ecosystem.
 
 ## Questions to answer
-
 1. What types of NFTs are popular in the market or are becoming increasingly
 popular?
 2. How is the value of NFT’s measured and predicted using exploratory data 
 analysis of market data?
 
 ## Tools/Modules to use
-
-SQL/Python/Pandas/Matplotlib/NumPy/SciPy
+PostgreSQL
+R
+Jupyter Lab (Pandas/Matplotlib/NumPy/SciPy)
+scikit-learn
+Pandas
+Tableau
+Google Slides
 
 ## Data sets to use
 Dataset were pull from Kaggle, and Github that were uploaded by Ali Nabipour. It represents the most popular Solana-based collections lited in Magiceden market. From March 2022 - Mid-April 2022.
@@ -40,7 +44,6 @@ Datasets included:
 4. Merge/Join collection basic information and NFT sold by each collections.
 5. Sort by/group by collection name.
 6. Collect # of NFT were sold for each collections
-
 
 ## Team Members
 1. Pablo Azcona 
