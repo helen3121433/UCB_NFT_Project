@@ -30,8 +30,8 @@ Dataset were pull from Kaggle, and Github that were uploaded by Ali Nabipour. It
 Datasets included: 
 1. collections.csv file that contains gerneral information about collections.
 2. Collection directory that contains data of NFTs that are listed in market place.
-https://www.kaggle.com/datasets/eyenpi/solana-nft-collections
-https://github.com/eyenpi/solana-nft-collections/tree/f7ca6ea6ffe11c309c01583a3e79302b6b681793
+- https://www.kaggle.com/datasets/eyenpi/solana-nft-collections
+- https://github.com/eyenpi/solana-nft-collections/tree/f7ca6ea6ffe11c309c01583a3e79302b6b681793
 
 ## Plans on data cleaning 
 1. Drop columns that will not be used.
