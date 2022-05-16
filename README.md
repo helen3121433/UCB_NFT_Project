@@ -27,6 +27,7 @@ https://github.com/eyenpi/solana-nft-collections/tree/f7ca6ea6ffe11c309c01583a3e
 14. https://stackoverflow.com/questions/55513128/pandas-valueerror-usecols-do-not-match-columns-columns-expected-but-not-found
 15. https://stackoverflow.com/questions/1483429/how-to-print-an-exception-in-python
 16. https://discuss.codecademy.com/t/can-we-add-a-new-column-at-a-specific-position-in-a-pandas-dataframe/355842/2
+17. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
 
 
 
