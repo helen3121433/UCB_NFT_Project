@@ -9,7 +9,7 @@ Collection directory that contains data of NFTs that are listed in market place.
 https://www.kaggle.com/datasets/eyenpi/solana-nft-collections
 https://github.com/eyenpi/solana-nft-collections/tree/f7ca6ea6ffe11c309c01583a3e79302b6b681793
 
-### Reference/Source I used to help me working through the project
+### Source list that helps me working through the project, when I have questions.
 
 1. How to read multiple csv, and concat as one dataframe: https://www.youtube.com/watch?v=TN_Cvyq_rxE&ab_channel=BusinessScience
 2. https://www.geeksforgeeks.org/iterating-over-rows-and-columns-in-pandas-dataframe/
@@ -24,4 +24,10 @@ https://github.com/eyenpi/solana-nft-collections/tree/f7ca6ea6ffe11c309c01583a3e
 11. https://hub.packtpub.com/basics-jupyter-notebook-python/
 12. https://datatofish.com/list-to-dataframe/
 13. https://pandas.pydata.org/docs/reference/general_functions.html
+14. https://stackoverflow.com/questions/55513128/pandas-valueerror-usecols-do-not-match-columns-columns-expected-but-not-found
+15. https://stackoverflow.com/questions/1483429/how-to-print-an-exception-in-python
+16. https://discuss.codecademy.com/t/can-we-add-a-new-column-at-a-specific-position-in-a-pandas-dataframe/355842/2
+
+
+
 
