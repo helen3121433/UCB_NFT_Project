@@ -27,13 +27,13 @@ popular?
 analysis of market data?
 
 ## Tools/Modules to use
-  -PostgreSQL
-  -R
-  -Jupyter Lab (Pandas/Matplotlib/NumPy/SciPy)
-  -scikit-learn
-  -Pandas
-  -Tableau
-  -Google Slides
+ :small_orange_diamond:PostgreSQL
+ :small_orange_diamond:R
+ :small_orange_diamond:Jupyter Lab (Pandas/Matplotlib/NumPy/SciPy)
+ :small_orange_diamond:scikit-learn
+ :small_orange_diamond:Pandas
+ :small_orange_diamond:Tableau
+ :small_orange_diamond:Google Slides
 
 ## Data sets to use
 Dataset were pull from Kaggle, and Github that were uploaded by Ali Nabipour. It represents the most popular Solana-based collections lited in Magiceden market. From March 2022 - Mid-April 2022.
