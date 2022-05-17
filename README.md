@@ -21,8 +21,7 @@ the infrastructure of this technology and assess & predict various aspects of th
 blockchain ecosystem.
 
 ## Questions to answer
-1. What types of NFTs are popular in the market or are becoming increasingly
-popular?
+1. What types of NFTs are popular on the Solana platform ?
 2. How is the value of NFT’s measured and predicted using exploratory data 
 analysis of market data?
 
