@@ -28,6 +28,9 @@ https://github.com/eyenpi/solana-nft-collections/tree/f7ca6ea6ffe11c309c01583a3e
 15. https://stackoverflow.com/questions/1483429/how-to-print-an-exception-in-python
 16. https://discuss.codecademy.com/t/can-we-add-a-new-column-at-a-specific-position-in-a-pandas-dataframe/355842/2
 17. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
+18. https://cheatography.com/davechild/cheat-sheets/regular-expressions/pdf/
+19. https://datascienceparichay.com/article/pandas-split-column-by-delimiter/
+
 
 
 
