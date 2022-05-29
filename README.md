@@ -4,8 +4,7 @@
 1. Pablo Azcona 
 2. Xiaochen Zhang
 3. Stella Chen
-4. Eason Fan
-5. Ben Liu
+4. Ben Liu
 
 ## Background
 NFT(non-fungible token)
