@@ -54,6 +54,7 @@ Datasets included:
 2. Create connection to Amazon database using pgAdmin
 3. Write SQL query in pgAdmin to create NFT database tables
 4. Import NFT data files into pgAdmin
+![Amazon RDS Management Console](/nft_aws_rds.png)
 
 ## Machine Learning Model
 
