@@ -14,7 +14,8 @@ CREATE TABLE nft_collections (
 	nft_properties VARCHAR,
 	nft_tokenDelegateValid VARCHAR,
 	nft_rarity VARCHAR,
-	nft_version INT
+	nft_version INT,
+	PRIMARY KEY (nft_id, nft_version)
 );
 
 DROP TABLE IF EXISTS almost_famous_pandas;
@@ -44,7 +45,8 @@ CREATE TABLE almost_famous_pandas (
 	nft_mouth VARCHAR,
 	nft_body VARCHAR,
 	nft_background VARCHAR,
-	nft_face VARCHAR
+	nft_face VARCHAR,
+	PRIMARY KEY (nft_id)
 );
 
 DROP TABLE IF EXISTS degenerate_ape_academy;
@@ -73,7 +75,8 @@ CREATE TABLE degenerate_ape_academy (
 	nft_clothing VARCHAR,
 	nft_eyewear VARCHAR,
 	nft_generation INT,
-	nft_sequence INT
+	nft_sequence INT,
+	PRIMARY KEY (nft_id)
 );
 
 DROP TABLE IF EXISTS galactic_geckos;
@@ -101,7 +104,8 @@ CREATE TABLE galactic_geckos (
 	nft_helmet VARCHAR,
 	nft_ears VARCHAR,
 	nft_eyes VARCHAR,
-	nft_attribute_count INT
+	nft_attribute_count INT,
+	PRIMARY KEY (nft_id)
 );
 
 DROP TABLE IF EXISTS guild_saga_heroes;
@@ -139,7 +143,8 @@ CREATE TABLE guild_saga_heroes (
 	nft_main_hand_weapon VARCHAR,
 	nft_off_hand_weapon VARCHAR,
 	nft_trinket VARCHAR,
-	nft_background VARCHAR
+	nft_background VARCHAR,
+	PRIMARY KEY (nft_id)
 );
 
 DROP TABLE IF EXISTS magicticket;
@@ -161,7 +166,8 @@ CREATE TABLE magicticket (
 	nft_version INT,
 	nft_origin_attributes VARCHAR,
 	nft_level INT,
-	nft_tier VARCHAR
+	nft_tier VARCHAR,
+	PRIMARY KEY (nft_id)
 );
 
 DROP TABLE IF EXISTS magnum_ai;
@@ -188,7 +194,8 @@ CREATE TABLE magnum_ai (
 	nft_costume VARCHAR,
 	nft_face_gear VARCHAR,
 	nft_glasses VARCHAR,
-	nft_headgear VARCHAR
+	nft_headgear VARCHAR,
+	PRIMARY KEY (nft_id)
 );
 
 DROP TABLE IF EXISTS monkelabs_dao;
@@ -214,5 +221,6 @@ CREATE TABLE monkelabs_dao (
 	nft_clothes VARCHAR,
 	nft_eyes VARCHAR,
 	nft_head VARCHAR,
-	nft_mouth VARCHAR
+	nft_mouth VARCHAR,
+	PRIMARY KEY (nft_id)
 );
