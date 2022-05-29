@@ -46,7 +46,6 @@ CREATE TABLE almost_famous_pandas (
 	nft_body VARCHAR,
 	nft_background VARCHAR,
 	nft_face VARCHAR,
-	PRIMARY KEY (nft_id, nft_version),
 	FOREIGN KEY (nft_id, nft_version) REFERENCES nft_collections(nft_id, nft_version)
 );
 
@@ -77,7 +76,6 @@ CREATE TABLE degenerate_ape_academy (
 	nft_eyewear VARCHAR,
 	nft_generation INT,
 	nft_sequence INT,
-	PRIMARY KEY (nft_id, nft_version),
 	FOREIGN KEY (nft_id, nft_version) REFERENCES nft_collections(nft_id, nft_version)
 );
 
@@ -107,7 +105,6 @@ CREATE TABLE galactic_geckos (
 	nft_ears VARCHAR,
 	nft_eyes VARCHAR,
 	nft_attribute_count INT,
-	PRIMARY KEY (nft_id, nft_version),
 	FOREIGN KEY (nft_id, nft_version) REFERENCES nft_collections(nft_id, nft_version)
 );
 
@@ -147,7 +144,6 @@ CREATE TABLE guild_saga_heroes (
 	nft_off_hand_weapon VARCHAR,
 	nft_trinket VARCHAR,
 	nft_background VARCHAR,
-	PRIMARY KEY (nft_id, nft_version),
 	FOREIGN KEY (nft_id, nft_version) REFERENCES nft_collections(nft_id, nft_version)
 );
 
@@ -171,7 +167,6 @@ CREATE TABLE magicticket (
 	nft_origin_attributes VARCHAR,
 	nft_level INT,
 	nft_tier VARCHAR,
-	PRIMARY KEY (nft_id, nft_version),
 	FOREIGN KEY (nft_id, nft_version) REFERENCES nft_collections(nft_id, nft_version)
 );
 
@@ -200,7 +195,6 @@ CREATE TABLE magnum_ai (
 	nft_face_gear VARCHAR,
 	nft_glasses VARCHAR,
 	nft_headgear VARCHAR,
-	PRIMARY KEY (nft_id, nft_version),
 	FOREIGN KEY (nft_id, nft_version) REFERENCES nft_collections(nft_id, nft_version)
 );
 
@@ -228,6 +222,5 @@ CREATE TABLE monkelabs_dao (
 	nft_eyes VARCHAR,
 	nft_head VARCHAR,
 	nft_mouth VARCHAR,
-	PRIMARY KEY (nft_id, nft_version),
 	FOREIGN KEY (nft_id, nft_version) REFERENCES nft_collections(nft_id, nft_version)
 );
