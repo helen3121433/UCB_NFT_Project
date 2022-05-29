@@ -62,3 +62,6 @@ To prepare the data model, we used one hot encoding to convert categorial attrib
 
 ### Modeling
 We chose scikit-learn as the framework for our machine learning model development. To select the most applicable model, we tested our data sets with multiple models including linear regression, Huber regression and lasso regression. Our objective is to determine the best model for predicting prices.
+
+## Dashboard
+To create the dashboard, the platform `Heroku` (https://www.heroku.com/) will be utlized. In order to utilize this website various boilerplate Flash files will be utlized to create a multi-layered webpage. Both Jinja, BootStrap, Flask, Pip, and others will be utlized for this dashboard deployment. The website will contain the main data findings of price versus attributes, while also having the ability to explore more specific NFT data collections.
