@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% extends "base.html" %} {% set active_page = "About" %} {% block content %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/about.css')}}"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="team-area sp">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3 single-team">
+            <div class="inner">
+              <div class="team-img">
+                <img
+                  src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                  alt="Member Photo"
+                />
+              </div>
+              <div class="team-content">
+                <h4>Pablo Azcona</h4>
+                <h5>Data Scientist</h5>
+                <div class="team-social">
+                  <a href="#" class="fa fa-github"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 single-team">
+            <div class="inner">
+              <div class="team-img">
+                <img
+                  src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                  alt="Member Photo"
+                />
+              </div>
+              <div class="team-content">
+                <h4>Xiaochen Zhang</h4>
+                <h5>Data Scientist</h5>
+                <div class="team-social">
+                  <a href="#" class="fa fa-github"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 single-team">
+            <div class="inner">
+              <div class="team-img">
+                <img
+                  src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                  alt="Member Photo"
+                />
+              </div>
+              <div class="team-content">
+                <h4>Stella Chen</h4>
+                <h5>Data Scientist</h5>
+                <div class="team-social">
+                  <a href="#" class="fa fa-github"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 single-team">
+            <div class="inner">
+              <div class="team-img">
+                <img
+                  src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                  alt="Member Photo"
+                />
+              </div>
+              <div class="team-content">
+                <h4>Eason Fan</h4>
+                <h5>Data Scientist</h5>
+                <div class="team-social">
+                  <a href="#" class="fa fa-github"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 single-team">
+            <div class="inner">
+              <div class="team-img">
+                <img
+                  src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                  alt="Member Photo"
+                />
+              </div>
+              <div class="team-content">
+                <h4>Ben Liu</h4>
+                <h5>Data Scientist</h5>
+                <div class="team-social">
+                  <a href="#" class="fa fa-github"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{url_for('static', filename='js/about.js')}}"></script>
+    {% endblock %}
+  </body>
+</html>
