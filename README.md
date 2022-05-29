@@ -48,3 +48,17 @@ Datasets included:
 4. Merge/Join collection basic information and NFT sold by each collections.
 5. Sort by/group by collection name.
 6. Collect # of NFT were sold for each collections
+
+## Steps for Loading Dataset into Amazon RDS Using pgAdmin
+1. Create Amazon RDS database
+2. Create connection to Amazon database using pgAdmin
+3. Write SQL query in pgAdmin to create NFT database tables
+4. Import NFT data files into pgAdmin
+
+## Machine Learning Model
+
+### Data Processing
+To prepare the data model, we used one hot encoding to convert categorial attributes into a format that will improve the predictive capabilities of machine learning algorithms
+
+### Modeling
+We chose scikit-learn as the framework for our machine learning model development. To select the most applicable model, we tested our data sets with multiple models including linear regression, Huber regression and lasso regression. Our objective is to determine the best model for predicting prices.
