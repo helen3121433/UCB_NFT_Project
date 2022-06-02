@@ -29,7 +29,7 @@
             <div class = "collapse navbar-collapse" id = "navbarNav">
                 <ul class="navbar-nav ms-auto">
                     {% for href, title in navigation_bar %}
-                    {% if title == active page %}
+                    {% if title == active_page %}
                     <li class = "nav-item">
                         <a class = "nav-link" href = "{{href|e }}" style="color: #fff;">{{title|e}} <span class="sr-only"></span></a>
                     </li>
@@ -45,8 +45,7 @@
     </nav>
     <main role="main" class="container">
         <!-- Unique Content -->
-        {% block content %}
-        {% endblock %}
+        {% block content %} {% endblock %}
         <!-- End Unique Content -->
       </main>
       <!-- Bootstrap core JavaScript
