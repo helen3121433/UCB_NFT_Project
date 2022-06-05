@@ -47,6 +47,8 @@ Datasets included:
 4. Merge/Join collection basic information and NFT sold by each collections.
 5. Sort by/group by collection name.
 6. Collect # of NFT were sold for each collections
+7. Pick top 7 colletions, and use regular expression to split the column 'attribute'
+8. Create new attribute columns by trait type as header, trait value as cell.
 
 ## Steps for Loading Dataset into Amazon RDS Using pgAdmin
 1. Create Amazon RDS database
