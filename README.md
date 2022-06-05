@@ -20,9 +20,8 @@ the infrastructure of this technology and assess & predict various aspects of th
 blockchain ecosystem.
 
 ## Questions to answer
-1. What types of NFTs are popular on the Solana platform ?
-2. How is the value of NFT’s measured and predicted using exploratory data 
-analysis of market data?
+1. What NFTs are popular on the Solana platform ?
+2. Among the most popular NFT collection on Solona platform, what are the top 10 attributes that affect the price ?
 
 ## Tools/Modules to use
  :small_orange_diamond:PostgreSQL
