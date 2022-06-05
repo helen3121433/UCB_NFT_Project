@@ -59,7 +59,7 @@ Datasets included:
 
 ## Machine Learning Model
 
-### Data Processing
+### Data Preprocessing
 To prepare the data model, we used one hot encoding to convert categorial attributes into a format that will improve the predictive capabilities of machine learning algorithms
 
 ### Modeling
