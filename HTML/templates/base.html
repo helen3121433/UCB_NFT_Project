@@ -16,6 +16,7 @@
 <!-- Jinja2: Generates nav and setting active state. Add more pages here! -->
 {% set navigation_bar = [
     ('/', 'Home'),
+    ('/collections', 'Collections'),
     ('/about', 'About')
     ] -%}
 
@@ -43,6 +44,7 @@
             </div>
         </div>
     </nav>
+
     <main role="main" class="container">
         <!-- Unique Content -->
         {% block content %} {% endblock %}
@@ -55,5 +57,13 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
       <script src="{{url_for('static', filename='js/base.js')}}"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"
+        integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </body>
 </html>

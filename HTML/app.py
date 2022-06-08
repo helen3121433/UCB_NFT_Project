@@ -16,6 +16,10 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route("/collections")
+def collections():
+    return render_template("collections.html")
+
 
 # Reroute all errors to 404
 @app.errorhandler(404)

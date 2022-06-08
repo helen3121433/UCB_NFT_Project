@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row header-row r1">
+      <h1 class="display-1 text-center">Almost Famous Pandas</h1>
+      <p class="lead text-center">
+        Displays the top ten Pandas according to their Solana pricing
+      </p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div id="bar"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="../static/js/top10_plotly.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"
+  integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="../static/js/pandas_plotly.js"></script>
+
+{% endblock %}

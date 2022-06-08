@@ -1,10 +1,115 @@
-{% extends "base.html" %}
-{% set active_page = "Home" %}
-{% block content %}
-<link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}" />
-<div style='margin-top: 30px; text-align: center;'>
-  <h1>NFT UCB Data BootCamp Project</h1>
-  <p class="lead"><i>Tracking and Predicting NFT Prices</i></p>
-</div>
+{% extends "base.html" %} {% set active_page = "Home" %} {% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/home.css')}}"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+        padding: 5px;
+      }
+
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row header-row r1">
+          <h1 class="display-1 text-center">
+            NFT Price Prediction Using Machine Learning
+          </h1>
+          <p class="lead text-center">
+            Cryptocurrency has become a household name and is an evolving
+            technology that will only become more prevalent in digital finance.
+            Using machine learning, the attributes of various NFT collections
+            will be utilized to predict pricing and other analytics.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://bafybeihxw53yydo5cwxaehjwqrjkwymdyhuw7dwgkz4aupmfupe3f4ykya.ipfs.dweb.link/6639.png?ext=png"
+              alt="almost_famous_pandas_6640"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="https://www.arweave.net/oWaoGB2YTOfCLAOCdewMlJQGYJ4hkjPaENBub47Awvs?ext=jpeg"
+              alt="galactic_gecko_196"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="https://bafybeihr7vi77syiup5o4avvzemhlp4v4nplpc23haderjcjkkzgah2a5u.ipfs.dweb.link/0.gif?ext=gif"
+              alt="magic_ticket_normie"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="https://monkelabs.nyc3.digitaloceanspaces.com/labmonke2/images/8f537fd9aebe9b33da17b6cd27a08f59.png"
+              alt="Monke_5463"
+              style="width: 300px; height: 300px"
+            />
+          </div>
+        </div>
+        <div class = "row">
+          <h3 id="what-affects-the-price-of-a-pandas-collectable">What affects the price of a NFT collectable?</h3>
+          <ul>
+            <li>
+              <h4>The traits that increase price the most are the rarest: <em>crystal glasses, body inverted, diamond dress outfit</em></h4>
+            </li>
+            <li>
+              <h4>The traits that increase price the least are the rarest: <em>navy cap, yellow headphones, gladiator mask</em></h4>
+            </li>
+            <li>
+              <h4>The significance of a trait and its rarity do not always line up</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <p>Below is the snapshot list. The rarity of each trait is given in relative most importance at the bottom of the bar.</p>
+          <img
+            src="../static/images/All_Famous_Panda_Top10_Attributes.png"
+            alt="All_Famous_Panda_Top10_Attributes"
+            style="width: auto; height: auto"
+          />
+        </div>
+        <div class="row">
+          <p>Below is the snapshot list. The rarity of each trait is given in relative least importance at the bottom of the bar.</p>
+          <img
+            src="../static/images/All_Famous_Panda_Bottom10_Attributes.png"
+            alt="All_Famous_Panda_Bottom10_Attributes"
+            style="width: auto; height: auto"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
 <script src="{{url_for('static', filename='js/home.js')}}"></script>
+
 {% endblock %}

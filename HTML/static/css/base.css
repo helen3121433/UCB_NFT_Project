@@ -1,5 +1,10 @@
 body {
   padding-top: 5rem;
+  background-image: url("https://www.forbes.com/advisor/wp-content/uploads/2021/04/NFT.jpeg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Patrick Hand";
 }
 
 h1 {
