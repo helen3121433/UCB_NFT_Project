@@ -6,6 +6,12 @@
 3. Stella Chen
 4. Ben Liu
 
+## Webpage:
+https://nft-final-price-predict.herokuapp.com/
+
+## Presentation Slide:
+https://docs.google.com/presentation/d/1uTGYHG953WhBIp2Li0geV3ufOv2FeBI_YdZEF4A0lI8/edit#slide=id.g131b8b14e2a_0_1061
+
 ## Background
 NFT(non-fungible token)
 An NFT is a digital sset that represents real world object like art, music, in-game items and videos. All of these are broght and sold online, freqently with cryptocurrency. 
