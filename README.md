@@ -10,7 +10,7 @@
 https://nft-final-price-predict.herokuapp.com/
 
 ## Presentation Slide:
-https://docs.google.com/presentation/d/1uTGYHG953WhBIp2Li0geV3ufOv2FeBI_YdZEF4A0lI8/edit#slide=id.g131b8b14e2a_0_1061
+[https://docs.google.com/presentation/d/1uTGYHG953WhBIp2Li0geV3ufOv2FeBI_YdZEF4A0lI8/edit#slide=id.g131b8b14e2a_0_1061](https://docs.google.com/presentation/d/1uTGYHG953WhBIp2Li0geV3ufOv2FeBI_YdZEF4A0lI8/edit?usp=sharing)
 
 ## Background
 NFT(non-fungible token)
