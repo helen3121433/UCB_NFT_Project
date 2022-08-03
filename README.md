@@ -5,6 +5,7 @@
 2. Xiaochen Zhang
 3. Stella Chen
 4. Ben Liu
+5. Zhengyu Fan
 
 ## Webpage:
 https://nft-final-price-predict.herokuapp.com/
